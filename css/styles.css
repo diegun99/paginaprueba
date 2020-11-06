@@ -1,0 +1,12 @@
+/*estilos index*/
+
+body{
+    background-color: cadetblue;
+}
+
+.contenedor{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: seagreen;
+    padding: 20px;
+}
