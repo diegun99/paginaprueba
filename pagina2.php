@@ -8,21 +8,33 @@
 </head>
 <body>
 
-        <h1>hoiiii</h1>
 
     <div class="contenedor">
 
+    <h1>Arreglos asociativos</h1>
+
+    <?php
+
+    $persona = array(
+        'nombre' => 'Jose',
+        'apellido' => 'Jimenez',
+        'telefono' => '3112452130',
+        'direccion' => 'carrera 9 # 3-12'
+    );
+
+    ?>
+    <pre>
         <?php
-            $arreglo1 = ["jose",'pedro','juan'];
-            echo "hola mundo <br>";
-            print "bitch";
+    echo print_r($persona);
 
-            $deportes = array("juan",'caro', 'miguel');
+    ?>
 
-        ?>
+    </pre>
 
-        <a href="pagina1.php">Ir a pagina 1</a>
-        <a href="pagina2.php">Ir a pagina 2</a>
+    <?php
+
+    ?>
+
 
     </div>
 

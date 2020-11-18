@@ -10,3 +10,15 @@ body{
     background-color: seagreen;
     padding: 20px;
 }
+
+.contenedor a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(8, 175, 97);
+    border: 1px solid #6147b6;
+    padding: 10px;
+    display : inline-block;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
